@@ -60,9 +60,14 @@ import { PhoneIcon, EnvelopeIcon, MapPinIcon } from "@heroicons/vue/24/solid";
                 <p class="mt-2 text-sm text-gray-500 dark:text-gray-400">
                   Parlez à notre équipe amicale.
                 </p>
-                <p class="mt-2 text-sm text-orange-500 dark:text-orange-400">
-                  infoss@carmen-security.com
-                </p>
+                <div class="text-base">
+                  <p class="mt-2 text-orange-500 dark:text-orange-400">
+                    infos@carmen-security.com
+                  </p>
+                  <p class="text-orange-500 dark:text-orange-400">
+                    falikoufofana51@gmail.com
+                  </p>
+                </div>
               </div>
 
               <div class="p-4 rounded-lg bg-orange-50 md:p-6 dark:bg-gray-800">
@@ -98,7 +103,7 @@ import { PhoneIcon, EnvelopeIcon, MapPinIcon } from "@heroicons/vue/24/solid";
                 <p class="mt-2 text-sm text-gray-500 dark:text-gray-400">
                   Visitez notre siège social.
                 </p>
-                <p class="mt-2 text-sm text-orange-500 dark:text-orange-400">
+                <p class="mt-2 text-base text-orange-500 dark:text-orange-400">
                   Cote d'ivoire, Abidjan marcory derrière cap sud
                 </p>
               </div>
@@ -131,7 +136,7 @@ import { PhoneIcon, EnvelopeIcon, MapPinIcon } from "@heroicons/vue/24/solid";
                 <p class="mt-2 text-sm text-gray-500 dark:text-gray-400">
                   Du lundi au vendredi de 8h à 17h.
                 </p>
-                <p class="mt-2 text-sm text-orange-500 dark:text-orange-400">
+                <p class="mt-2 text-base text-orange-500 dark:text-orange-400">
                   +(225) 07 06 74 38 31 / 07 98 16 52 17
                 </p>
               </div>

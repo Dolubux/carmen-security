@@ -1,5 +1,26 @@
 <script setup></script>
 <template>
+  <div class="h-64 lg:h-96 relative" :class="$route.path == '/' ? 'mt-12' : ''">
+    <div class="bg-gray-700 opacity-70 absolute top-0 w-full h-full"></div>
+    <NuxtImg
+      class="object-cover w-full h-full"
+      :src="$route.path == '/' ? '/images/sy-abouts.jpg' : '/images/sy-about-2.jpg'"
+      alt=""
+    />
+
+    <div class="absolute inset-0 flex flex-col justify-center text-center">
+      <p
+        class="font-black text-3xl md:text-4xl lg:text-7xl text-gray-50 dark:text-orange-400"
+      >
+        {{ $route.path == "/" ? "Tranquillité et Sérénité" : "A Propos" }}
+      </p>
+
+      <h1 class="mt-2 text-xl font-bold text-orange-500 lg:text-4xl dark:text-white">
+        {{ $route.path == "/" ? "Notre priorité absolue." : "De Carmen Security" }}
+      </h1>
+    </div>
+  </div>
+
   <div class="w-11/12 m-auto mt-14 lg:mt-20">
     <div class="flex flex-col font-mains md:w-9/12 gap-1">
       <div class="text-4xl lg:text-5xl font-bold">
