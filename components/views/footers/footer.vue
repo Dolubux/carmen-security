@@ -59,8 +59,8 @@ const Links = reactive([
         <div class="flex gap-1 items-center">
           <PhoneIcon class="h-4 lg:h-6" />
           <div class="flex gap-1">
-            <a href="tel:+2250706743831" class=""> +(225) 07 06 74 38 31 </a>/
-            <a href="tel:+2250798165217" class=""> 07 98 16 52 17 </a> /
+            <a href="tel:+2250706743831" class=""> +(225) 07 06 74 38 31 </a> |
+            <a href="tel:+2250798165217" class=""> 07 98 16 52 17 </a> |
             <a href="tel:+2250759775988" class=""> 07 59 77 59 88 </a>
           </div>
         </div>
@@ -68,7 +68,7 @@ const Links = reactive([
         <!-- Location -->
         <div class="flex items-center gap-1">
           <MapPinIcon class="h-4 lg:h-6" />
-          <div class="">Cote d'ivoire, Abidjan marcory derrière cap sud</div>
+          <div class="">Côte d'Ivoire, Abidjan Marcory Derrière Cap Sud</div>
         </div>
 
         <!-- Mail -->

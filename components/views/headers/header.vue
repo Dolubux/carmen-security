@@ -7,14 +7,18 @@ const CloseMenu = ref(true);
 </script>
 <template>
   <section
-    class="h-12 lg:h-16 w-full bg-white border-b-[1px] z-50"
+    class="h-12 lg:h-16 w-full bg-white border-b-[1px] z-50 sticky top-0"
     :class="!CloseMenu ? 'fixed top-0 w-full' : ''"
   >
     <div class="flex justify-between items-center h-full w-11/12 m-auto">
       <!-- Logo -->
 
       <NuxtLink to="/" class="lg:h-10 h-7 flex gap-6">
-        <NuxtImg src="/logo/logo_carmen_security.png" class="h-full bg-gray-800" alt="" />
+        <NuxtImg
+          src="/logo/logo_carmen_security.png"
+          class="h-full w-full bg-gray-800 object-fill"
+          alt=""
+        />
       </NuxtLink>
 
       <!-- Link Menu -->

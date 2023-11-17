@@ -29,8 +29,8 @@
         <span class="text-orange-500 font-extrabold">sécurité</span>.
       </div>
       <span class="text-sm md:text-lg flex"
-        >Fondée en 2023 par Mme Carmen Lambert, Carmen Security est une entreprise
-        spécialisée dans les solutions de sécurité pour les particuliers et les
+        >Fondée en 2023 par Mme Carmen genis Maguelonne, Carmen Security est une
+        entreprise spécialisée dans les solutions de sécurité pour les particuliers et les
         professionnels. Installée en cote d'voire, notre équipe intervient dans toute la
         région pour installer, maintenir et monitorer vos systèmes de sécurité et pour
         surveiller leurs locaux, biens et personnes. Notre mission est de vous apporter

@@ -1,6 +1,15 @@
 <script setup>
 import MainLayouts from "~/layouts/main.layouts.vue";
 import { PhoneIcon, EnvelopeIcon, MapPinIcon } from "@heroicons/vue/24/solid";
+
+useSeoMeta({
+  title: "Contact - Carmen Security",
+  ogTitle: "Contact - Carmen Security",
+  description: `Besoins de sécurité ? Nous sommes à votre écoute. Parlez à nos experts de la sécurité.`,
+  ogDescription: `Besoins de sécurité ? Nous sommes à votre écoute. Parlez à nos experts de la sécurité.`,
+  ogImage: "/logo/logo_carmen_security.png",
+  twitterCard: "summary_large_image",
+});
 </script>
 <template>
   <MainLayouts>
@@ -24,7 +33,7 @@ import { PhoneIcon, EnvelopeIcon, MapPinIcon } from "@heroicons/vue/24/solid";
             <h1
               class="mt-2 text-xl font-semibold text-gray-800 lg:text-2xl dark:text-white"
             >
-              Besion de securité ? Nous aimerions recevoir de vos nouvelles
+              Besoins de sécurité ? Nous sommes à votre écoute.
             </h1>
           </div>
         </div>
@@ -58,15 +67,21 @@ import { PhoneIcon, EnvelopeIcon, MapPinIcon } from "@heroicons/vue/24/solid";
                   Discutez avec nos experts
                 </h2>
                 <p class="mt-2 text-sm text-gray-500 dark:text-gray-400">
-                  Parlez à notre équipe amicale.
+                  Une équipe à l'écoute de vos besoins de sécurité
                 </p>
                 <div class="text-base">
-                  <p class="mt-2 text-orange-500 dark:text-orange-400">
+                  <a
+                    href="mailto:infos@carmen-security.com"
+                    class="mt-2 text-orange-500 dark:text-orange-400"
+                  >
                     infos@carmen-security.com
-                  </p>
-                  <p class="text-orange-500 dark:text-orange-400">
+                  </a>
+                  <a
+                    href="mailto:falikoufofana51@gmail.com"
+                    class="text-orange-500 dark:text-orange-400"
+                  >
                     falikoufofana51@gmail.com
-                  </p>
+                  </a>
                 </div>
               </div>
 
@@ -104,7 +119,7 @@ import { PhoneIcon, EnvelopeIcon, MapPinIcon } from "@heroicons/vue/24/solid";
                   Visitez notre siège social.
                 </p>
                 <p class="mt-2 text-base text-orange-500 dark:text-orange-400">
-                  Cote d'ivoire, Abidjan marcory derrière cap sud
+                  Côte d'Ivoire, Abidjan Marcory Derrière Cap Sud
                 </p>
               </div>
 
@@ -137,7 +152,9 @@ import { PhoneIcon, EnvelopeIcon, MapPinIcon } from "@heroicons/vue/24/solid";
                   Du lundi au vendredi de 8h à 17h.
                 </p>
                 <p class="mt-2 text-base text-orange-500 dark:text-orange-400">
-                  +(225) 07 06 74 38 31 / 07 98 16 52 17
+                  <a href="tel:+2250706743831" class=""> +(225) 07 06 74 38 31 </a> |
+                  <a href="tel:+2250798165217" class=""> 07 98 16 52 17 </a> |
+                  <a href="tel:+2250759775988" class=""> 07 59 77 59 88 </a>
                 </p>
               </div>
             </div>
