@@ -18,6 +18,7 @@ useSeoMeta({
         <div class="h-64 lg:h-96 relative">
           <div class="bg-gray-700 opacity-50 absolute top-0 w-full h-full"></div>
           <NuxtImg
+            placeholder
             class="object-cover w-full h-full"
             src="images/sy-contact.jpg"
             alt=""
@@ -119,7 +120,7 @@ useSeoMeta({
                   Visitez notre siège social.
                 </p>
                 <p class="mt-2 text-base text-orange-500 dark:text-orange-400">
-                  Côte d'Ivoire, Abidjan Marcory Derrière Cap Sud
+                  Côte d'Ivoire Bonoua (département de Grand Bassam)
                 </p>
               </div>
 

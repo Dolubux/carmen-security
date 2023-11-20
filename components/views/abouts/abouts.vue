@@ -3,6 +3,7 @@
   <div class="h-64 lg:h-96 relative" :class="$route.path == '/' ? 'mt-12' : ''">
     <div class="bg-gray-700 opacity-70 absolute top-0 w-full h-full"></div>
     <NuxtImg
+      placeholder
       class="object-cover w-full h-full"
       :src="$route.path == '/' ? '/images/sy-abouts.jpg' : '/images/sy-about-2.jpg'"
       alt=""
@@ -21,7 +22,7 @@
     </div>
   </div>
 
-  <div class="w-11/12 m-auto mt-14 lg:mt-20">
+  <div class="w-11/12 flex flex-col lg:flex-row gap-4 lg:gap-16 m-auto mt-14 lg:mt-20">
     <div class="flex flex-col font-mains md:w-9/12 gap-1">
       <div class="text-4xl lg:text-5xl font-bold">
         A Propos de <span class="text-orange-500 font-extrabold">Carmen Security</span>,
@@ -38,6 +39,15 @@
         à une surveillance humaine et des dispositifs de sécurité adaptés à vos
         besoins.</span
       >
+    </div>
+
+    <div class="h-[280px] w-full lg:w-auto flex justify-center">
+      <NuxtImg
+        placeholder
+        class="h-full rounded-lg"
+        src="/images/person/cs_owner.png"
+        alt=""
+      />
     </div>
 
     <div class=""></div>

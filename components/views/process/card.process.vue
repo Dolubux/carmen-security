@@ -6,7 +6,7 @@ defineProps(["icon", "title", "description"]);
     class="flex flex-col hover:bg-orange-50 cursor-pointer duration-75 font-mains shadow-sm border-[1px] border-orange-500/5 items-center py-4 px-3 rounded-lg"
   >
     <div>
-      <NuxtImg :src="`/icons/${icon}.png`" class="h-12" alt="" />
+      <NuxtImg placeholder :src="`/icons/${icon}.png`" class="h-12" alt="" />
     </div>
 
     <div class="flex flex-col items-center mt-2">

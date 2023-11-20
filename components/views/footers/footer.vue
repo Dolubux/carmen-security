@@ -68,7 +68,7 @@ const Links = reactive([
         <!-- Location -->
         <div class="flex items-center gap-1">
           <MapPinIcon class="h-4 lg:h-6" />
-          <div class="">Côte d'Ivoire, Abidjan Marcory Derrière Cap Sud</div>
+          <div class="">Côte d'Ivoire Bonoua (département de Grand Bassam)</div>
         </div>
 
         <!-- Mail -->

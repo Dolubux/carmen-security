@@ -17,7 +17,7 @@ defineProps(["title", "description", "picture", "color"]);
 
     <!-- Display Image -->
     <div class="w-full h-[280px]">
-      <NuxtImg class="w-full h-full object-cover" :src="picture" alt="" />
+      <NuxtImg placeholder class="w-full h-full object-cover" :src="picture" alt="" />
     </div>
   </div>
 </template>

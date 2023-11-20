@@ -34,6 +34,8 @@ useSeoMeta({
         <!-- My Services -->
         <MyServices />
 
+        <ViewsServicesProcetedServices />
+
         <!-- Contact us -->
         <ContactUs />
       </section>
