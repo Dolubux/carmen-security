@@ -32,7 +32,12 @@
     <swiper-slide v-for="team in Teams">
       <div class="flex flex-col gap-4 font-mains">
         <div class="h-[250px]">
-          <img :src="team.image" class="h-full w-full object-cover" alt="" />
+          <NuxtImg
+            placeholder
+            :src="team.image"
+            class="h-full w-full object-cover"
+            alt=""
+          />
         </div>
 
         <div class="flex flex-col gap-2 px-1">

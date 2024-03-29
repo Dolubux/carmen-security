@@ -30,7 +30,7 @@ const PROCESS = reactive([
 </script>
 <template>
   <div
-    class="flex flex-col w-8/12 m-auto text-center mt-14 lg:mt-20 font-mains items-center"
+    class="flex flex-col w-11/12 lg:w-8/12 m-auto text-center mt-14 lg:mt-20 font-mains items-center"
   >
     <span class="text-2xl md:text-3xl lg:text-4xl font-extralight"
       >Nos Valeurs, Chez Carmen Security</span
