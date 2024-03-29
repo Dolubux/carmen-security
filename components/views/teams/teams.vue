@@ -49,9 +49,11 @@
             <a :href="'mailto:' + team.email" class="leading-5 text-base text-blue-400">{{
               team.email
             }}</a>
-            <a :href="'tel:' + team.tel" class="leading-5 text-base text-blue-400">{{
-              team.tel
-            }}</a>
+            <a
+              :href="'tel:' + team.tel"
+              class="leading-5 text-base text-blue-400 flex flex-wrap"
+              >{{ team.tel }}</a
+            >
           </div>
         </div>
       </div>
@@ -96,7 +98,7 @@ export default {
         name: "Mr Kissi Wognin Francus",
         role: "Directeur commercial adjoint",
         email: "kissiwognin@gmail.com",
-        tel: "+2250759775988",
+        tel: "0759775988 / 0798165217 / 0787525893",
       },
       {
         image: "/images/teams/cs_3.jpeg",
