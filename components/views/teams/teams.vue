@@ -43,7 +43,7 @@
         </div>
 
         <div class="flex flex-col gap-2">
-          <span class="text-lg font-extrabold leading-5 mt-2">{{ team.name }}</span>
+          <span class="text-[17px] font-extrabold leading-5 mt-2">{{ team.name }}</span>
           <div class="flex flex-col gap-1">
             <span class="leading-5 text-base font-medium">{{ team.role }}</span>
             <a :href="'mailto:' + team.email" class="leading-5 text-base text-blue-400">{{
@@ -92,38 +92,38 @@ export default {
         tel: "+2250779787170",
       },
       {
-        image: "/images/teams/cs_3.jpeg",
-        name: "Mr N Guessan jean Miche",
-        role: "Directeur commercial",
-        email: "carmenjacky@gmail.com",
-        tel: "+2250758480485",
-      },
-      {
         image: "/images/teams/cs_1.jpeg",
         name: "Mr Kissi Wognin Francus",
-        role: "Directeur commercial Adjoint",
+        role: "Directeur commercial adjoint",
         email: "kissiwognin@gmail.com",
         tel: "+2250759775988",
+      },
+      {
+        image: "/images/teams/cs_3.jpeg",
+        name: "Mr N Guessan jean Michel",
+        role: "Directeur commercial adjoint",
+        email: "carmenjacky@gmail.com",
+        tel: "+2250758480485",
       },
       {
         image: "/images/teams/cs_5.jpeg",
         name: "KADJO Niamke Jackie",
         role: "Secrétaire, expert comptable",
-        email: "kissiwognin@gmail.com",
+        email: "carmenjacky@gmail.com",
         tel: "+2250707989269",
       },
       {
         image: "/images/teams/cs_6.jpeg",
         name: "Kissi Joséphine",
         role: "Secrétaire, expert comptable adjoint",
-        email: "kissiwognin@gmail.com",
+        email: "carmenjacky@gmail.com",
         tel: "+2250706743831",
       },
       {
         image: "/images/teams/cs_4.jpeg",
         name: "Mr Peyronner Patrice",
         role: "Assistant Clientèle",
-        email: "kissiwognin@gmail.com",
+        email: "carmenjacky@gmail.com",
         tel: "+2250706743831",
       },
 
@@ -131,14 +131,14 @@ export default {
         image: "/images/teams/cs_10.jpeg",
         name: "Mr Diakité Daouda",
         role: "Chargés des opérations",
-        email: "kissiwognin@gmail.com",
+        email: "carmenjacky@gmail.com",
         tel: "+2250707189842",
       },
       {
         image: "/images/teams/cs_8.jpeg",
         name: "N Guessan Narcisse",
         role: "Professeur d'anglais, Formateur",
-        email: "kissiwognin@gmail.com",
+        email: "carmenjacky@gmail.com",
         tel: "+2250798699877",
       },
     ]);
