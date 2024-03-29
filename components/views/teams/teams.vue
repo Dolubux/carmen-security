@@ -23,17 +23,17 @@
       disableOnInteraction: true,
     }"
     :breakpoints="{
-      320: { slidesPerView: 1.8, spaceBetween: 10 },
-      480: { slidesPerView: 2.2, spaceBetween: 10 },
-      768: { slidesPerView: 4.8, spaceBetween: 10 },
+      320: { slidesPerView: 1, spaceBetween: 10 },
+      480: { slidesPerView: 2, spaceBetween: 10 },
+      768: { slidesPerView: 4, spaceBetween: 10 },
       1024: { slidesPerView: 5, spaceBetween: 10 },
     }"
   >
     <swiper-slide v-for="team in Teams">
       <div
-        class="flex flex-col gap-4 font-mains border-[1px] border-gray-100 h-[400px] p-2 rounded-lg"
+        class="flex flex-col gap-4 font-mains border-[1px] border-gray-100 md:h-[410px] h-full p-2 rounded-lg"
       >
-        <div class="h-[250px]">
+        <div class="h-[350px] md:h-[250px]">
           <NuxtImg
             placeholder
             :src="team.image"
@@ -43,19 +43,15 @@
         </div>
 
         <div class="flex flex-col gap-2">
-          <span class="text-lg font-extrabold leading-4 mt-2">{{ team.name }}</span>
-          <div class="flex flex-col">
-            <span class="leading-5 text-base font-bold">{{ team.role }}</span>
-            <a
-              :href="'mailto:' + team.email"
-              class="leading-5 text-base font-medium text-blue-400"
-              >{{ team.email }}</a
-            >
-            <a
-              :href="'tel:' + team.tel"
-              class="leading-5 text-base font-medium text-blue-400"
-              >{{ team.tel }}</a
-            >
+          <span class="text-lg font-extrabold leading-5 mt-2">{{ team.name }}</span>
+          <div class="flex flex-col gap-1">
+            <span class="leading-5 text-base font-medium">{{ team.role }}</span>
+            <a :href="'mailto:' + team.email" class="leading-5 text-base text-blue-400">{{
+              team.email
+            }}</a>
+            <a :href="'tel:' + team.tel" class="leading-5 text-base text-blue-400">{{
+              team.tel
+            }}</a>
           </div>
         </div>
       </div>
@@ -72,7 +68,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 
 // import required modules
-import { Navigation } from "swiper/modules";
+import { Navigation, Autoplay } from "swiper/modules";
 
 export default {
   components: {
@@ -149,7 +145,7 @@ export default {
 
     return {
       Teams,
-      modules: [Navigation],
+      modules: [Navigation, Autoplay],
     };
   },
 };
