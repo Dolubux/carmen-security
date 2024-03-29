@@ -20,27 +20,29 @@
     :space-between="50"
     :autoplay="{
       delay: 2500,
-      disableOnInteraction: false,
+      disableOnInteraction: true,
     }"
     :breakpoints="{
-      320: { slidesPerView: 1.5, spaceBetween: 10 },
+      320: { slidesPerView: 1.8, spaceBetween: 10 },
       480: { slidesPerView: 2.2, spaceBetween: 10 },
       768: { slidesPerView: 4.8, spaceBetween: 10 },
-      1024: { slidesPerView: 5.2, spaceBetween: 10 },
+      1024: { slidesPerView: 5, spaceBetween: 10 },
     }"
   >
     <swiper-slide v-for="team in Teams">
-      <div class="flex flex-col gap-4 font-mains">
+      <div
+        class="flex flex-col gap-4 font-mains border-[1px] border-gray-100 h-[400px] p-2 rounded-lg"
+      >
         <div class="h-[250px]">
           <NuxtImg
             placeholder
             :src="team.image"
-            class="h-full w-full object-cover"
+            class="h-full w-full object-cover rounded-lg"
             alt=""
           />
         </div>
 
-        <div class="flex flex-col gap-2 px-1">
+        <div class="flex flex-col gap-2">
           <span class="text-lg font-extrabold leading-4 mt-2">{{ team.name }}</span>
           <div class="flex flex-col">
             <span class="leading-5 text-base font-bold">{{ team.role }}</span>
