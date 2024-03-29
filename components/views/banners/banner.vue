@@ -31,13 +31,13 @@ import { PhoneIcon, EnvelopeIcon, MapPinIcon } from "@heroicons/vue/24/solid";
       <div class="flex m-auto justify-center gap-2">
         <NuxtLink
           to="/a-propos"
-          class="bg-orange-500 text-center py-3 px-4 rounded-full text-sm md:text-xl lg:text-lg font-bold text-white font-mains"
+          class="bg-orange-500 text-center py-3 px-4 rounded-full text-base md:text-xl lg:text-lg font-bold text-white font-mains"
         >
           En savoir +
         </NuxtLink>
         <NuxtLink
           to="/contact"
-          class="flex items-center gap-1 border-[1px] border-orange-500 text-center text-sm md:text-xl lg:text-lg py-3 px-4 rounded-full font-bold font-mains text-orange-500"
+          class="flex items-center gap-1 border-[1px] border-orange-500 text-center text-base md:text-xl lg:text-lg py-3 px-4 rounded-full font-bold font-mains text-orange-500"
         >
           <PhoneIcon class="h-4 md:h-7 lg:h-5" />
           Nous contactez

@@ -16,7 +16,7 @@ const CloseMenu = ref(true);
       <NuxtLink to="/" class="lg:h-10 h-7 flex gap-6">
         <NuxtImg
           src="/logo/logo_carmen_security.png"
-          class="h-full w-full bg-gray-800 object-fill"
+          class="h-full w-full bg-gray-800 object-contain"
           alt=""
         />
       </NuxtLink>
@@ -26,7 +26,7 @@ const CloseMenu = ref(true);
 
       <!-- Number Contact Compagny -->
       <div class="items-center gap-8">
-        <div class="flex text-sm items-center gap-2">
+        <div class="flex text-base items-center gap-2">
           <NuxtImg src="/icons/icon_disponibilite_full.png" class="h-6" alt="" />
           <div class="flex flex-col">
             <span class="text-[10px] lg:text-base font-extralight"

@@ -67,7 +67,7 @@ useSeoMeta({
                 >
                   Discutez avec nos experts
                 </h2>
-                <p class="mt-2 text-sm text-gray-500 dark:text-gray-400">
+                <p class="mt-2 text-base text-gray-500 dark:text-gray-400">
                   Une équipe à l'écoute de vos besoins de sécurité
                 </p>
                 <div class="text-base">
@@ -116,7 +116,7 @@ useSeoMeta({
                 >
                   Rendez nous visite
                 </h2>
-                <p class="mt-2 text-sm text-gray-500 dark:text-gray-400">
+                <p class="mt-2 text-base text-gray-500 dark:text-gray-400">
                   Visitez notre siège social.
                 </p>
                 <p class="mt-2 text-base text-orange-500 dark:text-orange-400">
@@ -149,7 +149,7 @@ useSeoMeta({
                 >
                   Appelez-nous
                 </h2>
-                <p class="mt-2 text-sm text-gray-500 dark:text-gray-400">
+                <p class="mt-2 text-base text-gray-500 dark:text-gray-400">
                   Du lundi au vendredi de 8h à 17h.
                 </p>
                 <p class="mt-2 text-base text-orange-500 dark:text-orange-400">

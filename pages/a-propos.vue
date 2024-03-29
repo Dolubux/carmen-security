@@ -27,8 +27,11 @@ useSeoMeta({
 <template>
   <MainLayouts>
     <template v-slot:content>
-      <div class="mb-14">
+      <div class="mb-14 flex flex-col">
         <ViewsAbouts />
+
+        <!--  -->
+        <ViewsTeams />
       </div>
     </template>
   </MainLayouts>

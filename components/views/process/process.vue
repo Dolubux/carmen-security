@@ -35,13 +35,13 @@ const PROCESS = reactive([
     <span class="text-2xl md:text-3xl lg:text-4xl font-extralight"
       >Nos Valeurs, Chez Carmen Security</span
     >
-    <span class="text-xs md:text-sm lg:text-base flex">
+    <span class="text-base md:text-base lg:text-base flex">
       Nous mettons votre sécurité au premier plan. Votre tranquillité est notre
       priorité.</span
     >
   </div>
 
-  <div class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-2 w-11/12 m-auto mt-4">
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 w-11/12 m-auto mt-4">
     <div v-for="process in PROCESS">
       <CardProcess
         :icon="process.icon"

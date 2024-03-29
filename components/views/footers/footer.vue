@@ -33,7 +33,7 @@ const Links = reactive([
         </div>
 
         <div
-          class="text-sm md:text-base opacity-90 font-extralight md:w-7/12 lg:w-5/12 m-auto text-center"
+          class="text-base md:text-base opacity-90 font-extralight md:w-7/12 lg:w-5/12 m-auto text-center"
         >
           Chez Carmen Security, nous mettons votre sécurité au premier plan. Votre
           tranquillité est notre priorité absolue.
@@ -45,7 +45,7 @@ const Links = reactive([
         <div v-for="link in Links">
           <NuxtLink
             :to="link.route"
-            class="text-sm md:text-lg lg:text-base font-extralight"
+            class="text-base md:text-lg lg:text-base font-extralight"
           >
             {{ link.name }}
           </NuxtLink>
@@ -53,12 +53,12 @@ const Links = reactive([
       </div>
 
       <div
-        class="flex flex-col lg:flex-row items-center justify-center font-semibold text-xs md:text-base gap-2 lg:gap-8"
+        class="flex flex-col items-center justify-center font-semibold text-base md:text-base gap-2 lg:gap-2"
       >
         <!-- Phones -->
-        <div class="flex gap-1 items-center">
-          <PhoneIcon class="h-4 lg:h-6" />
-          <div class="flex gap-1">
+        <div class="flex gap-2 items-center justify-center w-full">
+          <!-- <PhoneIcon class="h-4 lg:h-6" /> -->
+          <div class="flex flex-wrap gap-1 w-11/12 text-center justify-center">
             <a href="tel:+2250706743831" class=""> +(225) 07 06 74 38 31 </a> |
             <a href="tel:+2250798165217" class=""> 07 98 16 52 17 </a> |
             <a href="tel:+2250759775988" class=""> 07 59 77 59 88 </a>
@@ -66,14 +66,16 @@ const Links = reactive([
         </div>
 
         <!-- Location -->
-        <div class="flex items-center gap-1">
-          <MapPinIcon class="h-4 lg:h-6" />
-          <div class="">Côte d'Ivoire Bonoua (département de Grand Bassam)</div>
+        <div class="flex items-center justify-center gap-2 w-full">
+          <!-- <MapPinIcon class="h-4 lg:h-6" /> -->
+          <div class="w-11/12 text-center">
+            Côte d'Ivoire Bonoua (département de Grand Bassam)
+          </div>
         </div>
 
         <!-- Mail -->
-        <div class="flex gap-1 items-center">
-          <EnvelopeIcon class="h-4 lg:h-6" />
+        <div class="flex gap-1 items-center justify-center">
+          <!-- <EnvelopeIcon class="h-4 lg:h-6" /> -->
           <a href="mailto:infos@carmen-security.com">infos@carmen-security.com</a>
         </div>
       </div>
@@ -86,12 +88,12 @@ const Links = reactive([
 
     <div class="w-11/12 m-auto pt-4">
       <div
-        class="text-xs md:text-[10px] lg:text-sm font-semibold justify-center w-full text-center"
+        class="text-base md:text-[10px] lg:text-base font-semibold justify-center w-full text-center"
       >
-        © 2023
+        Copyright © 2024
         <span class="text-orange-500 font-extrabold text-center"
           >Carmen Security (SARL)</span
-        >, Tous droits réservés.
+        >, Tous droits reservés. Développé par <a href="https://dolubux.com">Dolubux</a>.
       </div>
     </div>
   </div>

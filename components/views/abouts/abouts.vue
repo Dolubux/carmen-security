@@ -1,6 +1,9 @@
 <script setup></script>
 <template>
-  <div class="h-64 lg:h-96 relative" :class="$route.path == '/' ? 'mt-12' : ''">
+  <div
+    class="h-64 lg:h-96 relative font-mains"
+    :class="$route.path == '/' ? 'mt-12' : ''"
+  >
     <div class="bg-gray-700 opacity-70 absolute top-0 w-full h-full"></div>
     <NuxtImg
       placeholder
@@ -29,7 +32,7 @@
         l'allié de confiance de votre
         <span class="text-orange-500 font-extrabold">sécurité</span>.
       </div>
-      <span class="text-sm md:text-lg flex"
+      <span class="text-base md:text-lg flex"
         >Fondée en 2023 par Mme Carmen genis Maguelonne, Carmen Security est une
         entreprise spécialisée dans les solutions de sécurité pour les particuliers et les
         professionnels. Installée en cote d'voire, notre équipe intervient dans toute la

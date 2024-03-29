@@ -9,7 +9,7 @@ import CardProcess from "@/components/views/process/card.process.vue";
     <span class="text-2xl md:text-3xl lg:text-4xl font-extralight"
       >Lieux et personnes que nous protégeons</span
     >
-    <span class="text-xs md:text-sm lg:text-base flex">
+    <span class="text-base md:text-base lg:text-base flex">
       La sécurité et la tranquillité de nos clients sont notre priorité, quel que soit
       leur profil.</span
     >
