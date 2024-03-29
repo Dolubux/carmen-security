@@ -80,62 +80,68 @@ export default {
   setup() {
     const Teams = reactive([
       {
-        image: "/images/teams/cs_3.jpeg",
+        image: "/images/teams/cs_7.jpeg",
         name: "Mr Fofana",
         role: "Directeur Général",
+        email: "falikoufofana51@gmail.com",
+        tel: "+2250787765676",
+      },
+      {
+        image: "/images/teams/cs_2.jpeg",
+        name: "Mr Malan Calixte",
+        role: "Directeur commercial",
         email: "carmenjacky@gmail.com",
-        tel: "+225 07 59 77 59 88",
+        tel: "+2250779787170",
+      },
+      {
+        image: "/images/teams/cs_3.jpeg",
+        name: "Mr N Guessan jean Miche",
+        role: "Directeur commercial",
+        email: "carmenjacky@gmail.com",
+        tel: "+2250758480485",
       },
       {
         image: "/images/teams/cs_1.jpeg",
         name: "Mr Kissi Wognin Francus",
-        role: "Directeur commercial",
-        email: "kissiwognin@gmail.com",
-        tel: "+225 07 59 77 59 88",
-      },
-
-      {
-        image: "/images/teams/cs_2.jpeg",
-        name: "Mr Malan Calixte",
         role: "Directeur commercial Adjoint",
-        email: "carmenjacky@gmail.com",
-        tel: "+225 0758480485",
+        email: "kissiwognin@gmail.com",
+        tel: "+2250759775988",
       },
       {
         image: "/images/teams/cs_5.jpeg",
         name: "KADJO Niamke Jackie",
         role: "Secrétaire, expert comptable",
         email: "kissiwognin@gmail.com",
-        tel: "+225 07 59 77 59 88",
+        tel: "+2250707989269",
       },
       {
         image: "/images/teams/cs_6.jpeg",
         name: "Kissi Joséphine",
         role: "Secrétaire, expert comptable adjoint",
         email: "kissiwognin@gmail.com",
-        tel: "+225 07 59 77 59 88",
+        tel: "+2250706743831",
       },
       {
         image: "/images/teams/cs_4.jpeg",
         name: "Mr Peyronner Patrice",
         role: "Assistant Clientèle",
         email: "kissiwognin@gmail.com",
-        tel: "+225 07 59 77 59 88",
+        tel: "+2250706743831",
       },
 
       {
-        image: "/images/teams/cs_7.jpeg",
+        image: "/images/teams/cs_10.jpeg",
         name: "Mr Diakité Daouda",
         role: "Chargés des opérations",
         email: "kissiwognin@gmail.com",
-        tel: "+225 07 59 77 59 88",
+        tel: "+2250707189842",
       },
       {
         image: "/images/teams/cs_8.jpeg",
         name: "N Guessan Narcisse",
-        role: "Professeur d'anglais",
+        role: "Professeur d'anglais, Formateur",
         email: "kissiwognin@gmail.com",
-        tel: "+225 07 59 77 59 88",
+        tel: "+2250798699877",
       },
     ]);
 
