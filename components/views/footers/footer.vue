@@ -11,8 +11,8 @@ const Links = reactive([
     route: "a-propos",
   },
   {
-    name: "Contatez-nous",
-    route: "conatact s",
+    name: "Contactez-nous",
+    route: "contact",
   },
 ]);
 </script>
@@ -74,9 +74,15 @@ const Links = reactive([
         </div>
 
         <!-- Mail -->
-        <div class="flex gap-1 items-center justify-center">
+        <div class="flex gap-1 items-center justify-center flex-wrap">
           <!-- <EnvelopeIcon class="h-4 lg:h-6" /> -->
-          <a href="mailto:infos@carmen-security.com">infos@carmen-security.com</a>
+          <a href="mailto:infos@carmen-security.com" class="underline"
+            >infos@carmen-security.com</a
+          >
+          -
+          <a href="mailto:carmenjacky@gmail.com" class="underline"
+            >carmenjacky@gmail.com</a
+          >
         </div>
       </div>
     </div>

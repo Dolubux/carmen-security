@@ -32,7 +32,7 @@ useSeoMeta({
             </p>
 
             <h1
-              class="mt-2 text-xl font-semibold text-gray-800 lg:text-2xl dark:text-white"
+              class="mt-2 text-xl font-semibold text-gray-50 lg:text-2xl dark:text-white"
             >
               Besoins de sécurité ? Nous sommes à votre écoute.
             </h1>

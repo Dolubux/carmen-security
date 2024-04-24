@@ -38,7 +38,7 @@
             placeholder
             :src="team.image"
             class="h-full w-full object-cover rounded-lg"
-            alt=""
+            :alt="team.name"
           />
         </div>
 
@@ -46,10 +46,14 @@
           <span class="text-[17px] font-extrabold leading-5 mt-2">{{ team.name }}</span>
           <div class="flex flex-col gap-1">
             <span class="leading-5 text-base font-medium">{{ team.role }}</span>
-            <a :href="'mailto:' + team.email" class="leading-5 text-base text-blue-400">{{
-              team.email
-            }}</a>
             <a
+              :title="team.email"
+              :href="'mailto:' + team.email"
+              class="leading-5 text-base text-blue-400 truncate max-w-min"
+              >{{ team.email }}</a
+            >
+            <a
+              :title="team.tel"
               :href="'tel:' + team.tel"
               class="leading-5 text-base text-blue-400 flex flex-wrap"
               >{{ team.tel }}</a
@@ -128,7 +132,13 @@ export default {
         email: "carmenjacky@gmail.com",
         tel: "+2250706743831",
       },
-
+      {
+        image: "/images/teams/cs_16.jpeg",
+        name: "Mr Abdourahame Diallo",
+        role: "Responsable juridique et Marketing",
+        email: "abdourahamanediallo58@gmail.com",
+        tel: "",
+      },
       {
         image: "/images/teams/cs_10.jpeg",
         name: "Mr Diakité Daouda",
